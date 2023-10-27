@@ -6,170 +6,134 @@
 **Format:** Application/PDF  
 **Keywords:** Sample, Document, Metadata  
 
-## Overview
+# Report on .json Data Structure and Contents
 
-This document, authored by ASPPIBRA-DAO, addresses the digital world of real estate registration. It aims to offer a solution for Urban and Rural Land Regularization in Brazil. This solution seeks to ensure the digital inclusion of all property owners and possessors throughout the country. The project complies with LAW No. 13,465, OF JULY 11, 2017, which deals with urban and rural land regularization. The solution utilizes blockchain technology to scale real estate registration on a global scale. It addresses issues related to informality and transparency in property registration, ultimately providing access to inviolable decentralized information. Notably, the document mentions the creation of a unique NFT representing ownership of a house.
+## Introduction
 
-## Owners
+This report aims to provide an educational overview of the data structure and the primary data contained within a .json file. The specific .json file under consideration is titled "Digital World Real Estate Registration" and is authored by "ASPPIBRA-DAO." It was created on October 26, 2023, and is written in English. The format of the file is an "application/pdf," and it serves as a comprehensive document regarding Real Estate Registration.
 
-**Husband:**
-- **Name:** Julio Cesar da Costa Luis
-- **RG (Identification):** 20.160.254-7
-- **CPF (Tax ID):** 095.668.897-71
-- **Date of Birth:** 28/12/1981
-- **Nationality:** Brazilian
-- **Marital Status:** Married
+## Data Structure
 
-**Wife:**
-- **Name:** Daniele de Andrade Lucas Luis
-- **RG (Identification):** 20.567.008-6
-- **CPF (Tax ID):** 115.050.077-80
-- **Date of Birth:** 08/09/1984
-- **Nationality:** Brazilian
-- **Marital Status:** Married
+The .json file is organized into various sections, each serving a specific purpose. The key sections and their respective substructures are as follows:
 
-**Heir Children:**
-1. **Name:** First Child's Full Name
-   - **Date of Birth:** First Child's Birthdate
+1. **Document Information:**
+   - Title
+   - Author
+   - Creation Date
+   - Keywords
+   - Language
+   - Format
+   - Description
 
-2. **Name:** Second Child's Full Name
-   - **Date of Birth:** Second Child's Birthdate
+2. **Owners:**
+   - Husband Information
+   - Wife Information
+   - Heir Children Information (if applicable)
 
-## Property Information
+3. **Property Information:**
+   - Address
+   - Registration Number (for City Hall and Notary Office)
+   - Area Details
+   - Geographic Location
 
-**Address:**
-- **Property Type:** Urban
-- **Street:** Avenida Almirante Amorim do Vale
-- **Block:** 37
-- **Lot:** 02
-- **Neighborhood:** Monjolos
-- **Municipality:** São Gonçalo
-- **Zip Code:** 24724-560
-- **State:** Rio de Janeiro (RJ)
-- **Country:** Brazil (BR)
+4. **Professionals:**
+   - Surveyor Information
+   - Civil Engineer Information
 
-**Registration Number:**
-- **City Hall:** 000000000000000000
-- **Notary Office:** 00000000000000
+5. **Area Description:**
+   - Description Value
+   - Topography Plans (including Situation Plan, Cadastral Planimetric Plan, Topographic Plan, and District Plan)
 
-**Area:**
-- **Total Size:** 1,100.00 M²
-- **Right Side Confrontation:** 50.00 M on the right side, confronting with Lot 01
-- **Left Side Confrontation:** 50.00 M on the right side, confronting with Lot 03
-- **Front Confrontation:** Avenida Almirante Amorim do Vale, with a distance of 22.00 M
-- **Back Confrontation:** Then it covers a distance of 22.00 M at the back and confronts with Lot 05
-- **Perimeter:** 142.00 M
+6. **House Plans:**
+   - Description Value
+   - Plans (including House Plan and Engineering Plans)
 
-**Geographic Location:**
-- **Latitude:** Your Latitude Value
-- **Longitude:** Your Longitude Value
-- **Geodetic System:** Brazilian Geodesic System, Datum – SIRGAS 2000, MC-45º W, UTM System. The polygonal of Lot 2 owned by Mr. Julio Cesar da Costa Luis begins at the mark designated 0=PP, georeferenced in the Brazilian Geodesic System, Datum – SIRGAS 2000, MC-45º W, relative rectangular plane coordinates, UTM system: E=734,657.386M and N=7,459,688,912M.
+7. **Photo Report:**
+   - Description
+   - Images (including Front View, Side View, Backyard, and Aerial Photography)
 
-## Professionals
+8. **Sales Value:**
+   - List Price
+   - Appraised Value
+   - Negotiated Sales Price
+   - Date of Sale
+   - Buyer Information
+   - Payment Method
+   - Terms of Sale
 
-**Surveyor:**
-- **Name:** Alexsander da Silva Menezes
-- **CREA (Council of Engineering and Agronomy):** Surveyor's CREA Number
-- **RG (Identification):** Surveyor's RG Number
-- **CPF (Tax ID):** Surveyor's CPF Number
-- **CNPJ (Tax ID for Companies):** 18.267.079/0001-87
+9. **City Hall Information:**
+   - Address
+   - CNPJ (Tax ID for City Hall)
 
-**Civil Engineer:**
-- **Name:** Daiana da Silva de Lima
-- **CREA (Council of Engineering and Agronomy):** 2021100702 (RJ)
-- **RG (Identification):** Engineer's RG Number
-- **CPF (Tax ID):** Engineer's CPF Number
-- **CNPJ (Tax ID for Companies):** 40.142.171/0001-70
+10. **Registry Office Information:**
+   - Name
+   - Notary Officer Information (Name and Substitute Name)
+   - Address
+   - CNPJ (Tax ID for Registry Office)
 
-## Area Description
+11. **Onus Reais Information:**
+   - Value
+   - Link
+   - Electronic Seal
 
-- **Value:** Your Unique Area Description with Topography Plans
+12. **Notarial Minutes Information:**
+   - Value
+   - Link
+   - Electronic Seal
 
-**Topography Plans:**
-- Situation Plan: [URL]
-- Cadastral Planimetric Plan: [URL]
-- Topographic Plan: [URL]
-- District Plan: [URL]
+13. **Judicial Note Information:**
+   - Value
+   - Link
+   - Electronic Seal
 
-## House Plans
+## Main Data Highlights
 
-- **Value:** Your Unique Area Description with House Plans
+1. **Document Information:**
+   - Title: "Digital World Real Estate Registration"
+   - Author: ASPPIBRA-DAO
+   - Creation Date: October 26, 2023
+   - Keywords: Sample, Document, Metadata
+   - Description: Detailed explanation of the document's purpose and significance, including the use of blockchain technology for real estate registration.
 
-**Plans:**
-- House Plan: [URL to the house plan]
-- Engineering Plan:
-  - [URL]
-  - [URL]
+2. **Owners:**
+   - Information about the husband, wife, and heir children, including personal details such as names, IDs, birthdates, nationality, and marital status.
 
-## Photo Report
+3. **Property Information:**
+   - Detailed property address, type, registration numbers, area specifications, and geographic location information.
 
-**Description:** A photo report showcasing the different areas of the property
+4. **Professionals:**
+   - Details of the surveyor and civil engineer, including their names and professional credentials.
 
-**Images:**
-- Front View: [URL]
-- Side View: [URL]
-- Backyard: [URL]
-- Aerial Photography:
-  - [URL]
-  - [URL]
-  - [URL]
+5. **Area Description:**
+   - A unique area description and topography plans, including situation plans, cadastral planimetric plans, topographic plans, and district plans.
 
-## Sales Value
+6. **House Plans:**
+   - A unique area description and house plans, including engineering plans.
 
-- **List Price:** Specify the list price of the property
-- **Appraised Value:** Specify the appraised value of the property
-- **Negotiated Sales Price:** Specify the negotiated sales price, if different from the list price
-- **Date of Sale:** Specify the date when the property was sold
-- **Buyer Information:** Include the name and contact details of the buyer, if available
-- **Payment Method:** Specify the method of payment used for the sale, e.g., cash, mortgage, etc.
-- **Terms of Sale:** Specify any special terms or conditions of the sale, if applicable
+7. **Photo Report:**
+   - A photo report showcasing different areas of the property, including front and side views, the backyard, and aerial photography.
 
-## City Hall
+8. **Sales Value:**
+   - Details about the property's pricing, sale date, buyer information, payment method, and terms of sale.
 
-**Address:**
-- **Street:** Av. Presidente Kennedy
-- **Block:** 00
-- **Lot:** 00
-- **Neighborhood:** Estrela do Norte
-- **Municipality:** São Gonçalo
-- **State:** Rio de Janeiro (RJ)
-- **Zip Code:** 00
+9. **City Hall Information:**
+   - Details about the City Hall's address and CNPJ.
 
-**CNPJ (Tax ID for Companies):** 28.636.579/0001-00
+10. **Registry Office Information:**
+    - Details about the Registry Office's name, notary officer information, address, and CNPJ.
 
-## Registry Office
+11. **Onus Reais Information:**
+    - Details about Onus Reais, including its value, link, and electronic seal.
 
-- **Name:** Tabelionato De Notas E 3º Ofício De Registro De Imóveis
+12. **Notarial Minutes Information:**
+    - Details about Notarial Minutes, including its value, link, and electronic seal.
 
-**Notary Officer:**
-- **Name:** José Expedito Moreira da Cunha
-- **Substitute Name:** Cristiane Mendes Cunha Melo
+13. **Judicial Note Information:**
+    - Details about Judicial Note, including its value, link, and electronic seal.
 
-**Address:**
-- **Street:** Antônio Alves
-- **Block:** 00
-- **Lot:** 00
-- **Neighborhood:** Alcântara
-- **Municipality:** São Gonçalo
-- **State:** Rio de Janeiro (RJ)
-- **Zip Code:** 24710-390
+## Conclusion
 
-**CNPJ (Tax ID for Companies):** 30.594.527/0001-52
+The .json file "Digital World Real Estate Registration" is a comprehensive document containing structured data related to real estate registration in Brazil. The information is well-organized, and each section serves a specific purpose in providing a detailed overview of the property, its owners, and the professionals involved. The use of blockchain technology is emphasized to ensure transparency and security in the real estate registration process.
 
-## Onus Reais
+This report serves as an educational resource to understand the data structure and primary data contained within the .json file, facilitating better comprehension of the document's content and purpose.
 
-- **Value:** Description of the Onus Reais exclusive area
-- **Link:** [URL]
-- **Electronic Seal:** 00000000000000hats
-
-## Notarial Minutes
-
-- **Value:** Description of the Notarial Minutes exclusive area
-- **Link:** [URL]
-- **Electronic Seal:** 00000000000000hats
-
-## Judicial Note
-
-- **Value:** Description of the Judicial Note exclusive area
-- **Link:** [URL]
-- **Electronic Seal:** 00000000000000hats
