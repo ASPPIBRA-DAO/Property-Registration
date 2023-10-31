@@ -36,7 +36,7 @@
             }
         ]
     },
-    "property_information": {
+    "area_description": {
         "address": {
             "property_type": "Urban",
             "street": "Avenida Almirante Amorim do Vale",
@@ -64,6 +64,15 @@
             "latitude": "Your Latitude Value",
             "longitude": "Your Longitude Value",
             "geodetic_system": "Brazilian Geodesic System, Datum – SIRGAS 2000, MC-45º W, UTM System The polygonal of Lot 2 owned by Mr. Julio Cesar da Costa Luis begins at the mark designated 0=PP, georeferenced in the Brazilian Geodesic System, Datum – SIRGAS 2000, MC-45º W, relative rectangular plane coordinates, UTM system: E=734,657.386M and N=7,459,688,912M."
+        },
+        "sales_value": {
+            "list_price": "Specify the list price of the property",
+            "appraised_value": "Specify the appraised value of the property",
+            "negotiated_sales_price": "Specify the negotiated sales price, if different from the list price",
+            "date_of_sale": "Specify the date when the property was sold",
+            "buyer_information": "Include the name and contact details of the buyer, if available",
+            "payment_method": "Specify the method of payment used for the sale, e.g., cash, mortgage, etc.",
+            "terms_of_sale": "Specify any special terms or conditions of the sale, if applicable"
         }
     },
     "professionals": {
@@ -82,12 +91,13 @@
             "CNPJ": "40.142.171/0001-70"
         }
     },
-    "area_description": {
+    "topography_plans": {
         "value": "Your Unique Area Description with Topography Plans",
-        "topography_plans": {
+        "plans": {
             "Situation Plan": "https://bafybeidabxrfk52ktaucgiubqdtfmr37glfkgqpqd4r2cjhudf5fvl6zji.ipfs.w3s.link/%40pl_situa%C3%A7%C3%A3o.png",
             "Cadastral planimetric plan": "https://bafybeiahak3rmcs4sylyvfdob3vwf27ibxsoe3icjhbd57vyn2bswmxdt4.ipfs.w3s.link/%40cadastral.png",
             "topographic plan": "URL",
+            "Zoning plan": "URL",
             "district plan": "https://bafybeidp6a4u66hs6qu7aiirm4jjdww6y4axsuxaun5ddfdlrqawqfpa6y.ipfs.w3s.link/%40distrito.png"
         }
     },
@@ -114,15 +124,11 @@
             ]
         }
     },
-    "sales_value": {
-        "list_price": "Specify the list price of the property",
-        "appraised_value": "Specify the appraised value of the property",
-        "negotiated_sales_price": "Specify the negotiated sales price, if different from the list price",
-        "date_of_sale": "Specify the date when the property was sold",
-        "buyer_information": "Include the name and contact details of the buyer, if available",
-        "payment_method": "Specify the method of payment used for the sale, e.g., cash, mortgage, etc.",
-        "terms_of_sale": "Specify any special terms or conditions of the sale, if applicable"
-    },
+    "construction_licensing": {
+        "value": "ART",
+        "link": "https://bafybeigjkvr54ue2rgewwksb7prcpuxly6aklpk7wb35x3wfxfyazrlate.ipfs.w3s.link/%40art.png",
+        "electronic_seal": "00000000000000hats"
+    },    
     "city_hall": {
         "address": {
             "street": "Av. Presidente Kennedy",
